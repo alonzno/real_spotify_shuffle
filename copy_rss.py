@@ -191,7 +191,7 @@ def selfUpdateFile():
 
 	username = username.strip()
 
-	code = code.replace("alonzoa-us", username, 2);
+	code = code.replace("UNASSIGNED", username, 2);
 
 	fout = open(__file__, 'w')
 	fout.write(code)
